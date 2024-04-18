@@ -6,7 +6,7 @@
 
 运行图
 
-![image-20240417142308619](C:\Users\StarsDecade\AppData\Roaming\Typora\typora-user-images\image-20240417142308619.png)
+![image-20240417142308619](./RunChart.png)
 
 安装 neovim
 
