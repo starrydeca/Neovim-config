@@ -27,6 +27,13 @@ curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install nodejs
 # gcc clang unzip python
 sudo apt install gcc clang unzip python3-venv
+
+# 设置vim.opt.clipboard = "unnamedplus" wsl下 nvim启动变慢解决
+curl -sLo/tmp/win32yank.zip https://github.com/equalsraf/win32yank/releases/download/v0.1.1/win32yank-x64.zip
+unzip -p /tmp/win32yank.zip win32yank.exe > /tmp/win32yank.exe
+chmod +x /tmp/win32yank.exe
+sudo mv /tmp/win32yank.exe /usr/local/bin/
+sudo rm -rf /tmp/win32yank.zip 
 ~~~
 
 安装本项目
