@@ -72,8 +72,13 @@ return packer.startup(function(use)
 	use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
 	use "p00f/nvim-ts-rainbow"
     -- 括号配对
-    use "windwp/nvim-autopairs"
-
+    use {
+        "windwp/nvim-autopairs",
+        event = "InsertEnter",
+        config = function()
+            require("nvim-autopairs").setup {}
+        end
+    }
     -- 注释
     use "JoosepAlviste/nvim-ts-context-commentstring"
 
