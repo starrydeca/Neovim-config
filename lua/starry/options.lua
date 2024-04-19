@@ -18,7 +18,7 @@ opt.splitbelow = true		            	-- 水平拆分
 opt.mouse = "a"                             -- 允许使用鼠标
 
 -- 剪切板  会使打开速度变慢
-vim.g.clipboard = {
+opt.clipboard = {
     name = 'win32yank-wsl',
     copy = {
         ['+'] =  'win32yank.exe -i --crlf',
@@ -30,5 +30,4 @@ vim.g.clipboard = {
     },
     cache_enabled = true,
 }
--- opt.clipboard:append("unnamedplus")   	-- 使用系统默认剪贴板
--- vim.api.nvim_set_option("clipboard", "unnamed")
+opt.clipboard:append("unnamedplus")   	-- 使用系统默认剪贴板
