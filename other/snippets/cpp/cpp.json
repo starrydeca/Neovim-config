@@ -27,10 +27,10 @@
         ],
         "description": "Code snippet for 'for' loop"
     },
-    "foruv": {
-        "prefix": "foruv",
+    "foruvw": {
+        "prefix": "foruvw",
         "body": [
-            "for (int ${1:i} = 1, ${2:u}, ${3:v}; $1 <= ${4:n}; $1++) $0"
+            "for (int ${1:i} = 1, ${2:u}, ${3:v}, ${4:w}; $1 <= ${5:n}; $1++) $0"
         ],
         "description": "Code snippet for 'for' loop"
     },
