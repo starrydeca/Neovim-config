@@ -16,6 +16,7 @@ opt.backspace = "indent,eol,start"	        -- 允许在缩进、行尾或插入�
 opt.splitright = true		            	-- 向右拆分
 opt.splitbelow = true		            	-- 水平拆分
 opt.mouse = "a"                             -- 允许使用鼠标
+-- opt.transparent = true                       -- 背景透明
 
 -- 剪切板  会使打开速度变慢
 opt.clipboard = {
